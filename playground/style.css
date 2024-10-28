@@ -1,0 +1,27 @@
+.container {
+  padding: 1rem;
+  background-color: lightgray;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header,
+aside,
+article,
+footer {
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.image-box {
+  background-color: lightgray;
+  padding: 1rem;
+  height: 5rem;
+  border: 1px solid black;
+}

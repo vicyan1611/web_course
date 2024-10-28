@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Float Layout */
+.float-container {
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+.float-container > * {
+  padding: 20px;
+  background: white;
+  margin-bottom: 1px;
+}
+
+.float-main-content {
+  overflow: hidden; /* Creates new block formatting context */
+}
+
+.float-sidebar {
+  float: left;
+  width: 200px;
+}
+
+.float-body {
+  margin-left: 201px; /* sidebar width + gap */
+}
+
+.float-footer {
+  clear: both;
+}
